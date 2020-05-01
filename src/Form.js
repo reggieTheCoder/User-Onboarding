@@ -204,7 +204,7 @@ export default function Form() {
 
       {/* Drop down for roles */}
       <label htmlFor="roles">
-        Roles
+        Role
         <select id="roles" name="roles" onChange={inputChange}>
           <option value="">-- Please choose an option--</option>
           <option value="junior-developer">Junior Developer</option>
